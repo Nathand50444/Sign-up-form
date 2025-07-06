@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#photo {
+    position: absolute;
+}
+
+#heading {
+    position: absolute;
+    background-color: rgba(143,188,143,0.5)
+}
+
+#footer {
+    position: absolute;
+}
+
+#smiley {
+    width: 10%;
+    padding: 0;
+}
+
+#heading_content {
+
+}
