@@ -21,6 +21,8 @@ html, body {
     height: 100vh;
     width: auto;
     object-fit: cover;
+    box-shadow: 5px 0 5px -1px rgba(0, 0, 0, 0.4);
+    z-index: 2;
 }
 
 #heading {
@@ -32,6 +34,7 @@ html, body {
     background-color: rgba(143,188,143,0.5);
     box-sizing: border-box;
     font-weight: 800;
+    z-index: 3;
 }
 
 #heading_content {
@@ -51,10 +54,27 @@ html, body {
     height: auto;
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.5);
-    text
+    z-index: 3;
 }
 
 #symbol {
     width: 20%;
     padding-right: 40px;
+}
+
+#sign_up {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+    min-width: 0;
+
+}
+
+#description {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 3.5ch;
+    background-color: antiquewhite;
 }
