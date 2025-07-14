@@ -72,9 +72,19 @@ html, body {
 }
 
 #description {
+    /* This box needs to flex according to the size of the screen */
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     font-size: 3.5ch;
     background-color: antiquewhite;
+}
+
+#sign_up_area {
+    display: flex;
+    flex-direction: column;
+}
+
+#input_section {
+    display: flex;
 }
