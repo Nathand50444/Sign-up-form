@@ -83,8 +83,11 @@ html, body {
 #sign_up_area {
     display: flex;
     flex-direction: column;
+    padding: 2rem;
 }
 
 #input_section {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 2rem;
 }
