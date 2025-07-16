@@ -89,6 +89,9 @@ html, body {
 
 #input_section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    place-items: center;
+    gap: 1rem; /* optional spacing between items */
 }
+
