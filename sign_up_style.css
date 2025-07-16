@@ -95,3 +95,9 @@ html, body {
     gap: 1rem; /* optional spacing between items */
 }
 
+#input, #user_password {
+    width: 200px;
+    height: 30px;
+    padding: 8px;
+    box-sizing: border-box; 
+}
