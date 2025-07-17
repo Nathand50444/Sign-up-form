@@ -63,6 +63,11 @@ html, body {
     padding-right: 40px;
 }
 
+#action_call {
+    font-size: larger;
+    padding-left: 20px;
+}
+
 #sign_up {
     display: flex;
     flex-direction: column;
@@ -76,7 +81,7 @@ html, body {
     /* This box needs to flex according to the size of the screen */
     padding-top: 50px;
     padding-bottom: 50px;
-    text-align: center;
+    text-align: left;
     font-size: clamp(1rem, 5vw, 1.8rem);
     background-color: antiquewhite;
 }
