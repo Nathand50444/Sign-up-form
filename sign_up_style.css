@@ -31,6 +31,8 @@ html, body {
     width: 100%;
     height: 20%;
     background-color: rgba(128, 128, 128,0.5);
+    font-size: 200%;
+    color: white;
     box-sizing: border-box;
     z-index: 3;
 }
@@ -68,8 +70,10 @@ a {
 }
 
 #action_call {
-    font-size: larger;
-    padding-left: 20px;
+    padding-left: 5%;
+    text-align: left;
+    font-size: clamp(0.1rem, 5vw, 1.2rem);
+    background-color: white;
 }
 
 #sign_up {
@@ -78,12 +82,11 @@ a {
     flex-grow: 1;
     position: relative;
     min-width: 0;
-
 }
 
 #description {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 3.5rem;
+    padding-right: 15%;
     text-align: left;
     font-size: clamp(1rem, 5vw, 1.8rem);
     background-color: whitesmoke;
@@ -92,15 +95,13 @@ a {
 #sign_up_area {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+    padding: 3.5rem;
 }
 
 #input_section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
-    place-items: center;
     gap: 1rem;
 }
 
@@ -108,10 +109,9 @@ a {
     width: 200px;
     height: 30px;
     padding: 8px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 #section_3 {
     background-color: whitesmoke;
-    height: 100vh;
 }
