@@ -36,6 +36,7 @@ html, body {
     color: white;
     box-sizing: border-box;
     z-index: 3;
+    font-size: clamp(1rem, 5vw, 1.8rem);
 }
 
 #heading_content {
@@ -76,6 +77,7 @@ html, body {
 }
 
 #sign_up {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
