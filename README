@@ -1,0 +1,33 @@
+# Cosy Café Signup Page
+This project is a simple responsive signup webpage for Cosy Café, a fictional coffee subscription service.
+
+# Overview
+The page offers visitors a friendly and visually appealing form to create an account for the "100% fake, not real" coffee subscription. It combines a cosy aesthetic with straightforward user input fields.
+
+# Features
+Responsive layout with two main sections:
+
+An image panel with branding and photo credits.
+
+A signup form panel with descriptive text and input fields.
+
+
+# Styling (CSS)
+The sign_up_style.css provides the visual structure and styling of the page:
+
+Uses flexbox and CSS grid for responsive layout.
+
+
+# Usage
+Open index.html in any modern web browser.
+
+Fill out the form fields.
+
+Click Create Account to submit (currently the form submits to a placeholder URL: example.com/path).
+
+Note: The form's action URL is a placeholder and should be updated to your backend endpoint to handle signups.
+
+
+# Credits
+Background photo by Olena Bohovyk on Unsplash.
+cup.png - Hot icons created by Xinh Studio - Flaticon (https://www.flaticon.com/free-icons/hot)
